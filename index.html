@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <h1>Cadastro de Produtos</h1>
+
+    <form id="formulario">
+        <input type="text" id="nome" placeholder="Nome do produto"><br>
+        <input type="number" id="preco" placeholder="Preço"><br>
+        <select id="categoria">
+            <option value="">Selecione uma categoria</option>
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Cozinha">Cozinha</option>
+        </select><br>
+        <button type="submit">Cadastrar produto</button>
+    </form>
+
+    <p id="mensagemErro" style="color:red;"></p>
+
+    <h2>Lista de Produtos</h2>
+    <ul id="lista"></ul>
+
+</body>
+<script src="script.js"></script>
+
+</html>
